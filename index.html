@@ -12,8 +12,8 @@
     <!-- <link href="favicon.png" rel="icon" sizes="192x192"> -->
 
     <!-- Page title & description -->
-    <title>ZillyWoods Client</title>
-    <meta name="description" content="Custom client for Teeworlds version 0.7+ coded by ChillerDragon">
+    <title>chillerbot-ux Client</title>
+    <meta name="description" content="Custom Teeworlds client based on ddnet coded by ChillerDragon">
 
     <!-- Styles -->
     <link href="assets/normalize.min.css?v=8.0.1" rel="stylesheet">
@@ -35,14 +35,14 @@
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-center">
 
           <!-- Title in the header -->
-          <span class="mdc-top-app-bar__title">ZillyWoods Client</span>
+          <span class="mdc-top-app-bar__title">chillerbot-ux Client</span>
 
         </section>
 
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
 
           <!-- Icon-link to source code on GitHub -->
-          <a href="https://github.com/ZillyWoods" target="_blank" rel="noopener" class="mdc-top-app-bar__action-item mdc-icon-button" aria-label="Source code">
+          <a href="https://github.com/chillerbot-ux" target="_blank" rel="noopener" class="mdc-top-app-bar__action-item mdc-icon-button" aria-label="Source code">
 
             <!-- icon: https://materialdesignicons.com/icon/github -->
             <svg viewBox="0 0 24 24">
@@ -69,85 +69,58 @@
         <div class="mdc-card mdc-card-simple mdc-typography--body1">
 
           <span>
-            Custom client for <a href="https://www.teeworlds.com/" target="_blank" rel="noopener">Teeworlds</a> version 0.7+, with basic DDRace modification features such as:
+            Custom <a href="https://www.teeworlds.com/" target="_blank" rel="noopener">Teeworlds</a> client based on <a href="https://www.ddnet.tw/" target="_blank" rel="noopener">ddnet</a> with additional features such as:
           </span>
 
           <br />
 
           <ul class="mdc-list">
             <li class="mdc-list-item__text">
-              Entities overlay - <code>cl_overlay_entities &lt;0|100&gt;</code>
+              Auto rename before finish - <code>cl_finish_rename &lt;0|1&gt;</code>
             </li>
             <li class="mdc-list-item__text">
-              Custom zoom - <code>zoom+</code>, <code>zoom</code>, <code>zoom-</code>
+              Custom tee thumbnails - <code>cl_render_pic &lt;0|1&gt</code>
             </li>
             <li class="mdc-list-item__text">
-              Visible hook collision lines - <code>bind &lt;key&gt; +showhookcoll</code> (on key hold)
-            </li>
-            <li class="mdc-list-item__text">
-              DDRace tiles prediction (hookthrough & stopper)
-            </li>
-            <li class="mdc-list-item__text">
-              DDRace teams colored in scoreboard
-            </li>
-            <li class="mdc-list-item__text">
-              *Experimental* DDRace map editor support (switch, front, tele & speedup layers)
-            </li>
-            <li class="mdc-list-item__text">
-              Scoreboard and statboard support 64 players
-            </li>
-            <li class="mdc-list-item__text">
-              Highlight server administrators (with red color) in scoreboard - <code>cl_show_admins &lt;0|1&gt;</code>
-            </li>
-            <li class="mdc-list-item__text">
-              Connect dummy button
-            </li>
-            <li class="mdc-list-item__text">
-              Dummy switch bind - <code>bind &lt;key&gt; "toggle cl_dummy 1 0"</code>
-            </li>
-            <li class="mdc-list-item__text">
-              Info about spectators leaving the server - <code>cl_show_silent_messages &lt;0|1&gt;</code>
-            </li>
-            <li class="mdc-list-item__text">
-              Show prediction to server - <code>cl_showpred &lt;0|1&gt;</code>
+              <a href="https://github.com/chillerbot/chillerbot-ux#password-manager">Password manager</a>
             </li>
           </ul>
 
           <br />
 
           <span>
-            For <a href="https://github.com/ZillyWoods/ZillyWoods/blob/zilly/readme.md" target="_blank" rel="noopener">more info</a> and <a href="https://github.com/ZillyWoods/ZillyWoods/releases" target="_blank" rel="noopener">older releases</a> visit <a href="https://github.com/ZillyWoods/ZillyWoods" target="_blank" rel="noopener">GitHub</a>
+            For <a href="https://github.com/chillerbot/chillerbot-ux/blob/chillerbot/README.md" target="_blank" rel="noopener">more info</a> and <a href="https://github.com/chillerbot/chillerbot-ux/releases" target="_blank" rel="noopener">older releases</a> visit <a href="https://github.com/chillerbot/chillerbot-ux" target="_blank" rel="noopener">GitHub</a>
           </span>
           
         </div>
 
         <!-- Download section -->
-        <span class="mdc-typography--headline6 mdc-theme--text-secondary-on-light">Download - v0008</span>
+        <span class="mdc-typography--headline6 mdc-theme--text-secondary-on-light">Download - v0.0.1</span>
 
         <div class="mdc-card mdc-card-simple">
           <form class="direction-row">
             
-              <button formaction="https://github.com/ZillyWoods/ZillyWoods/releases/download/v0008/zillywoods-0008-0.7.4-win32.zip" class="mdc-button mdc-button--unelevated">
+              <button formaction="https://github.com/chillerbot/chillerbot-ux/releases/download/v0.0.1/chillerbot-ux-win32.rar" class="mdc-button mdc-button--unelevated">
                 <span class="mdc-button__label">Windows x32</span>
                 <span class="mdc-button__ripple"></span>
               </button>
 
-              <button formaction="https://github.com/ZillyWoods/ZillyWoods/releases/download/v0008/zillywoods-0008-0.7.4-win64.zip" class="mdc-button mdc-button--unelevated">
+              <button disabled formaction="" class="mdc-button mdc-button--unelevated">
                 <span class="mdc-button__label">Windows x64</span>
                 <span class="mdc-button__ripple"></span>
               </button>
 
-              <button disabled formaction="https://github.com/ZillyWoods/ZillyWoods/releases/download/v0008/zillywoods-0008-0.7.4-linux_x86.tar.xz" class="mdc-button mdc-button--unelevated">
+              <button disabled formaction="" class="mdc-button mdc-button--unelevated">
                 <span class="mdc-button__label">Linux32</span>
                 <span class="mdc-button__ripple"></span>
               </button>
 
-              <button formaction="https://github.com/ZillyWoods/ZillyWoods/releases/download/v0008/zillywoods-0008-0.7.4-linux_x86_64.tar.xz" class="mdc-button mdc-button--unelevated">
+              <button disabled formaction="" class="mdc-button mdc-button--unelevated">
                 <span class="mdc-button__label">Linux64</span>
                 <span class="mdc-button__ripple"></span>
               </button>
 
-              <button formaction="https://github.com/ZillyWoods/ZillyWoods/releases/download/v0008/zillywoods-0008-0.7.4-osx.dmg" class="mdc-button mdc-button--unelevated">
+              <button disabled formaction="" class="mdc-button mdc-button--unelevated">
                 <span class="mdc-button__label">MacOS</span>
                 <span class="mdc-button__ripple"></span>
               </button>

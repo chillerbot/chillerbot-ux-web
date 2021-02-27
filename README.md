@@ -1,4 +1,4 @@
-<h1 align="center">Official website of ZillyWoods Client</h1>
+<h1 align="center">Official website of chillerbot-ux Client</h1>
 <p align="center">
-  <a href="https://zillywoods.github.io/ZillyWoods-web/">zillywoods.github.io/ZillyWoods-web/</a>
+  <a href="https://chillerbot.github.io/chillerbot-ux-web/">chillerbot.github.io/chillerbot-ux-web/</a>
 </p>
